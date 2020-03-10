@@ -1,0 +1,117 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	font-size: 18px;
+}
+
+#container
+{
+	background-color: #F6F8C0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	padding-top: 20px; 
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+}
+
+#image
+{
+	width: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#text
+{
+	font-family: 'Titan One', cursive;
+	font-size: 40px;
+	display: block;
+	text-align: center;
+}
+
+#text p
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#menu
+{
+	background-color: #27AD13;
+	font-size: 23px;
+	text-align: center;
+	height: 60px;
+}
+
+ul
+{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+ul > li
+{
+	float: left;
+	width: 200px;
+	height: 30px;
+}
+
+ul a
+{
+	width: 199px;
+	display: block;
+	text-decoration: none;
+	color: #124D09;
+	border-left: 1px solid #124D09;
+}
+
+ul a:last-child
+{
+	border-right: 1px solid #300620;
+}
+
+ul a:hover
+{
+	background-color: #3FCA29;
+}
+
+.button
+{
+	height: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#content
+{
+	background-color: #F6F8C0;
+	padding: 50px 200px 50px 200px;
+	text-align: justify;
+	min-height: 500px;
+}
+
+h1
+{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-top: 0;
+}
+
+#footer
+{
+	background-color: #27AD13;
+	padding: 15px 5px 5px 5px;
+	text-align: center;
+	height: 30px;
+}
