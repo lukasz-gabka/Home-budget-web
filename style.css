@@ -95,9 +95,8 @@ ul a:hover
 #content
 {
 	background-color: #F6F8C0;
-	padding: 50px 200px 50px 200px;
+	padding: 60px 200px 60px 200px;
 	text-align: justify;
-	min-height: 500px;
 }
 
 h1
@@ -106,6 +105,33 @@ h1
 	text-align: center;
 	letter-spacing: 3px;
 	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#formId
+{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.inputs
+{
+	margin: 20px;
+}
+
+input[type=text],
+input[type=password]
+{
+	font-size: 20px;
+	height: 40px;
+	width: 382px;
+}
+
+input[type=submit]
+{
+	width: 400px;
+	height: 40px;
+	font-size: 20px;
 }
 
 #footer
