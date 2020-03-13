@@ -37,7 +37,21 @@
 					<h1>Bilans przychodów i wydatków</h1>
 					<div id="formId">
 						<form action="" method="post" enctype="application/x-www-form-urlencoded">
-							
+							<label class="labels">Zakres bilansu:</label>
+							<select class="options">
+								<option>Bieżący miesiąc</option>
+								<option>Poprzedni miesiąc</option>
+								<option>Bieżący rok</option>
+								<option>Niestandardowy</option>
+							</select>
+							<div id="balanceRange">
+							<div class="inputs"><label class="labels">Data początkowa:</label><input type="date" required></div>
+							<div class="inputs"><label class="labels">Data końcowa:</label><input type="date" required></div>
+							</div>
+							<div class="inputs" id="submitButton">
+								<input type="submit" class="expenseInputs" value="OK">
+								<input type="button" class="expenseInputs" value="Anuluj">
+							</div>
 						</form>
 					</div>
 				</div>
