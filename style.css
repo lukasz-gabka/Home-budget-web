@@ -215,6 +215,11 @@ textarea
 	resize: none;
 }
 
+#balanceRange
+{
+	display: none;
+}
+
 #footer
 {
 	background-color: #27AD13;

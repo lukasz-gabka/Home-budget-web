@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="style.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Titan+One&display=swap&subset=latin-ext" rel="stylesheet">  
 		
+		<script src="balanceRange.js"></script>
+		
 		<title>e-świnka</title>
 	</head>
 	
@@ -21,6 +23,7 @@
 					<div id="text"><p><span style="color:#f666cc">e</span>-świnka</p></div>
 				</div>
 			</header>
+			
 			<nav>
 				<div id="menu">
 					<ul>
@@ -32,22 +35,25 @@
 					</ul>
 				</div>
 			</nav>
+			
 			<main>
 				<div id="content">
 					<h1>Bilans przychodów i wydatków</h1>
 					<div id="formId">
 						<form action="" method="post" enctype="application/x-www-form-urlencoded">
 							<label class="labels">Zakres bilansu:</label>
-							<select class="options">
-								<option>Bieżący miesiąc</option>
-								<option>Poprzedni miesiąc</option>
-								<option>Bieżący rok</option>
-								<option>Niestandardowy</option>
+							<select class="options" id="rangeMenu" onchange="customRangeVisibility()">
+								<option value="0">Bieżący miesiąc</option>
+								<option value="1">Poprzedni miesiąc</option>
+								<option value="2">Bieżący rok</option>
+								<option value="3">Niestandardowy</option>
 							</select>
+							
 							<div id="balanceRange">
-							<div class="inputs"><label class="labels">Data początkowa:</label><input type="date" required></div>
-							<div class="inputs"><label class="labels">Data końcowa:</label><input type="date" required></div>
+							<div class="inputs"><label class="labels">Data początkowa:</label><input type="date" id="dateFirst"></div>
+							<div class="inputs"><label class="labels">Data końcowa:</label><input type="date" id="dateLast"></div>
 							</div>
+							
 							<div class="inputs" id="submitButton">
 								<input type="submit" class="expenseInputs" value="OK">
 								<a href="index.html"><input type="button" class="expenseInputs" value="Anuluj"></a>
@@ -56,6 +62,7 @@
 					</div>
 				</div>
 			</main>
+			
 			<footer>
 				<div id="footer">
 					e-świnka &copy; 2020 Wszelkie prawa zastrzeżone
