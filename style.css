@@ -96,7 +96,7 @@ ul a:hover
 {
 	background-color: #F6F8C0;
 	padding: 60px 200px 60px 200px;
-	text-align: justify;
+	text-align: center;
 	width: 1000px;
 }
 
@@ -179,6 +179,7 @@ input[type=submit],
 input[type=button]
 {
 	background-color: #27AD13;
+	cursor: pointer;
 }
 
 input:focus,

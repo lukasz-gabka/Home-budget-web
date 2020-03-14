@@ -17,15 +17,15 @@
 		<div id="container">
 			<header>
 				<div id="logo">
-					<div id="image"><img src="img/piggy.png"/></div>
+					<div id="image"><img src="img/piggy.png" alt="piggy"/></div>
 					<div id="text"><p><span style="color:#f666cc">e</span>-świnka</p></div>
 				</div>
 			</header>
 			<nav>
 				<div id="menu">
 					<ul>
-						<li><a href="#"><div class="button">Logowanie</div></a></li>
-						<li><a href="#"><div class="button">Rejestracja</div></a></li>
+						<li><a href="login.html"><div class="button">Logowanie</div></a></li>
+						<li><a href="register.html"><div class="button">Rejestracja</div></a></li>
 					</ul>
 				</div>
 			</nav>
@@ -34,9 +34,9 @@
 					<h1>Zaloguj się</h1>
 					<div id="formId">
 						<form action="" method="post" enctype="application/x-www-form-urlencoded">
-							<div class="inputs"><input type="text" placeholder="Login" required></div>
-							<div class="inputs"><input type="password" placeholder="Hasło" required></div>
-							<div class="inputs"><input type="submit" value="Zaloguj"></div>
+							<div class="inputs"><label class="labels">Login:</label><input type="text" required></div>
+							<div class="inputs"><label class="labels">Hasło:</label><input type="password" required></div>
+							<div class="inputs" id="submitButton"><input type="submit" value="Zaloguj"></div>
 						</form>
 					</div>
 				</div>
