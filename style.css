@@ -11,15 +11,14 @@ body
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 #logo
 {
 	padding-top: 20px; 
-	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 180px;
 }
 
 #image
@@ -73,6 +72,9 @@ ul a
 	text-decoration: none;
 	color: #124D09;
 	border-left: 1px solid #124D09;
+	height: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 ul a:last-child
@@ -85,17 +87,11 @@ ul a:hover
 	background-color: #3FCA29;
 }
 
-.button
-{
-	height: 30px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
 #content
 {
+	display: inline-block;
 	background-color: #F6F8C0;
-	padding: 60px 200px 60px 200px;
+	padding-bottom: 60px;
 	text-align: center;
 	width: 1000px;
 }
@@ -105,8 +101,15 @@ h1
 	font-family: 'Anton', sans-serif;
 	text-align: center;
 	letter-spacing: 3px;
-	margin-top: 0;
+	margin-top: 60px;
 	margin-bottom: 40px;
+}
+
+#loggedInUser
+{
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 60px;
 }
 
 #formId
@@ -114,7 +117,7 @@ h1
 	text-align: center;
 	margin-top: 60px;
 	width: 700px;
-	margin-left: 65px;
+	margin-left: 32px;
 }
 
 .inputs
