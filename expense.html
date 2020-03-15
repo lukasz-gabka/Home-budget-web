@@ -8,7 +8,7 @@
 		<meta name="keywords" content="oszczędzanie, pieniąze, bużet domowy, budżet, dom, wydatki, przychody, bilans, saldo"/>
 		
 		<link rel="stylesheet" href="style.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Titan+One&display=swap&subset=latin-ext" rel="stylesheet">  
+		<link href="https://fonts.googleapis.com/css?family=Anton%7CLato:400,700%7CTitan+One&display=swap&subset=latin-ext" rel="stylesheet">   
 		
 		<title>e-świnka</title>
 	</head>
@@ -43,7 +43,7 @@
 					</header>
 					
 					<div id="formId">
-						<form action="" method="post" enctype="application/x-www-form-urlencoded">
+						<form method="post" enctype="application/x-www-form-urlencoded">
 							<div class="inputs"><label class="labels">Kwota:</label><input type="number" step="0.01" required></div>
 							<div class="inputs"><label class="labels">Data:</label><input type="date" required></div>
 							
@@ -51,7 +51,7 @@
 							<select class="options">
 								<option>Gotówka</option>
 								<option>Przelew</option>
-								<option>Karta kreytowa</option>
+								<option>Karta kredytowa</option>
 								<option>Karta debetowa</option>
 							</select>
 							
@@ -80,8 +80,8 @@
 							<div class="txtarea"><textarea rows="4" maxlength="160"></textarea></div>
 							
 							<div class="inputs" id="submitButton">
-								<input type="submit" class="expenseInputs" value="OK">
-								<a href="main.html"><input type="button" class="expenseInputs" value="Anuluj"></a>
+								<input type="submit" class="expenseInputs" value="Dodaj">
+								<button class="expenseInputs"><a href="main.html">Anuluj</a></button>
 							</div>
 						</form>
 					</div>

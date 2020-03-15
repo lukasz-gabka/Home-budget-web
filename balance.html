@@ -8,7 +8,7 @@
 		<meta name="keywords" content="oszczędzanie, pieniąze, bużet domowy, budżet, dom, wydatki, przychody, bilans, saldo"/>
 		
 		<link rel="stylesheet" href="style.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Titan+One&display=swap&subset=latin-ext" rel="stylesheet">  
+		<link href="https://fonts.googleapis.com/css?family=Anton%7CLato:400,700%7CTitan+One&display=swap&subset=latin-ext" rel="stylesheet">   
 		
 		<script src="balanceRange.js"></script>
 		
@@ -45,7 +45,7 @@
 					</header>
 						
 					<div id="formId">
-						<form action="" method="post" enctype="application/x-www-form-urlencoded">
+						<form method="post" enctype="application/x-www-form-urlencoded">
 							<label class="labels">Zakres bilansu:</label>
 							<select class="options" id="rangeMenu" onchange="customRangeVisibility()">
 								<option value="0">Bieżący miesiąc</option>
@@ -61,7 +61,7 @@
 							
 							<div class="inputs" id="submitButton">
 								<input type="submit" class="expenseInputs" value="OK">
-								<a href="main.html"><input type="button" class="expenseInputs" value="Anuluj"></a>
+								<button class="expenseInputs"><a href="main.html">Anuluj</a></button>
 							</div>
 						</form>
 					</div>

@@ -165,7 +165,8 @@ h1
 	margin: 20px;
 }
 
-input
+input,
+button
 {
 	font-size: 20px;
 	height: 40px;
@@ -179,7 +180,7 @@ input
 }
 
 input[type=submit],
-input[type=button]
+button
 {
 	background-color: #27AD13;
 	cursor: pointer;
@@ -187,20 +188,27 @@ input[type=button]
 
 input:focus,
 select:focus,
-textarea:focus
+textarea:focus,
+button:focus
 {
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(18,77,9,0.85);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(18,77,9,0.85);
 	box-shadow: 0px 0px 8px 0px rgba(18,77,9,0.85);
 }
 
+button > a
+{
+	text-decoration: none;
+	color: #124D09;
+}
+
 input[type=submit]:hover
 {
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 input[type=submit]:focus,
-input[type=button]:focus
+button:focus
 {
 	background-color: #3FCA29;
 }
