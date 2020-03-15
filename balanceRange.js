@@ -1,16 +1,20 @@
 function customRangeVisibility()
 {
+	var dates = document.getElementsByClassName("dates");
 	if (document.getElementById("rangeMenu").selectedIndex == 3)
 	{
 		document.getElementById("balanceRange").style.display="block";
-		document.getElementById("dateFirst").required = true;
-		document.getElementById("dateLast").required = true;
-		
+		for (var i = 0; i < dates.length; i++)
+		{
+			dates[i].required = true;
+		}
 	}
 	else
 	{
 		document.getElementById("balanceRange").style.display="none";
-		document.getElementById("dateFirst").required = false;
-		document.getElementById("dateLast").required = false;
+		for (var i = 0; i < dates.length; i++)
+		{
+			dates[i].required = false;
+		}
 	}
 }
